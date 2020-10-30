@@ -66,8 +66,8 @@ public class HibernateIntroMain {
 
         //QuerySelectByName
         session.beginTransaction();
-        session.createQuery("FROM Student WHERE name = :name", Student.class)
-                .setParameter("name","Jon Doe")
+        session.createQuery("FROM Student WHERE name = ?1", Student.class)
+                .setParameter(1,"Jon Doe")
                 .stream().forEach(System.out::println);
         session.getTransaction().commit();
 
