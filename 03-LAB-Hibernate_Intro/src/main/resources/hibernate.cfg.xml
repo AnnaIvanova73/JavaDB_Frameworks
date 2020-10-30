@@ -19,5 +19,7 @@
         <property name="hibernate.format_sql">true</property>
         <property name="hibernate.use_sql_comments">true</property>
 
+        <!-- config recourses -> List of XML mappings -> can be in diff config files-->
+        <mapping resource="student.hbm.xml" />
     </session-factory>
 </hibernate-configuration>
