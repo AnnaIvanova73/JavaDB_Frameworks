@@ -1,19 +1,15 @@
 package course.springdata.jpaintro.entity;
 
-
 import javax.persistence.*;
 import java.util.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name = "students")
+@Table(name="students")
 public class Student {
-
     private Long id;
     private String name;
-
     private Date registrationDate = new Date();
-
 
     public Student() {
     }
@@ -29,9 +25,10 @@ public class Student {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY,generator="IdOrGenerated")
+    @Column(name = "id", nullable = false)
     public Long getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(Long id) {
@@ -39,7 +36,7 @@ public class Student {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setName(String name) {
@@ -47,10 +44,10 @@ public class Student {
     }
 
     public Date getRegistrationDate() {
-        return this.registrationDate;
+        return registrationDate;
     }
 
-    @Column(name = "registration_date")
+    @Column(name = "registrationDate")
     public void setRegistrationDate(Date registrationDate) {
         this.registrationDate = registrationDate;
     }

@@ -12,5 +12,6 @@
         <module name="03-LAB-JPA-Intro" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="15" />
   </component>
 </project>
