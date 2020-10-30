@@ -2,10 +2,11 @@ package course.springdata.hibernateintro;
 
 import course.springdata.hibernateintro.entity.Student;
 import org.hibernate.FlushMode;
-import org.hibernate.LockMode;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+
+import java.util.Optional;
 
 public class HibernateIntroMain {
     public static void main(String[] args) {
@@ -35,16 +36,34 @@ public class HibernateIntroMain {
         session.beginTransaction();
         Student result = session.get(Student.class, 1L);
         session.getTransaction().commit();
-        System.out.printf("Student with ID:%d -> %s", result.getId(), result.getName());
+        System.out.printf("Student with ID:%d -> %s%n", result.getId(), result.getName());
 
         //Read Entity By Id 0.1
         session.beginTransaction();
         session.setHibernateFlushMode(FlushMode.MANUAL);
         //FlushMode.MANUAL without flush use case read only, faster perform.
-        result = session.get(Student.class, 1L, LockMode.READ);
+
+        //Student result2 = session.get(Student.class, 1L, LockMode.READ);
         //LockMode share between readers
+
+      // Student result3 = session.byId(Student.class).getReference(1);
+
+        result = session.byId(Student.class).load(1L); // return null
+
         session.getTransaction().commit();
-        System.out.printf("Student with ID:%d -> %s", result.getId(), result.getName());
+        System.out.printf("Student with ID:%d -> %s%n", result.getId(), result.getName());
+
+
+        //Read Entity By Id 0.3
+        session.beginTransaction();
+        session.setHibernateFlushMode(FlushMode.MANUAL);
+        long queryId = 100L;
+        Optional<Student> result5 = session.byId(Student.class).loadOptional(queryId);
+
+
+        session.getTransaction().commit();
+        System.out.printf("Student: %s%n", result5.orElseGet(() -> new Student("Unknwon")));
+        // result5.isPresent
 
         //Close session
         session.close();
