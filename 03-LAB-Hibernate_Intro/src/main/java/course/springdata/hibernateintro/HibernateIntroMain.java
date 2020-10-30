@@ -27,7 +27,7 @@ public class HibernateIntroMain {
 
 
         //Persist an Entity
-        Student student = new Student("Hristo Georgiev");
+        Student student = new Student("Jon Doe");
         session.beginTransaction();
         session.save(student);// --> save is native for hibernate
         session.getTransaction().commit();
@@ -38,7 +38,12 @@ public class HibernateIntroMain {
         session.getTransaction().commit();
         System.out.printf("Student with ID:%d -> %s%n", result.getId(), result.getName());
 
-        //Read Entity By Id 0.1
+
+        //Read Entity By Id 1
+        getStudentByIdV1(session);
+
+
+        //Read Entity By Id 2
         session.beginTransaction();
         session.setHibernateFlushMode(FlushMode.MANUAL);
         //FlushMode.MANUAL without flush use case read only, faster perform.
@@ -46,7 +51,7 @@ public class HibernateIntroMain {
         //Student result2 = session.get(Student.class, 1L, LockMode.READ);
         //LockMode share between readers
 
-      // Student result3 = session.byId(Student.class).getReference(1);
+        // Student result3 = session.byId(Student.class).getReference(1);
 
         result = session.byId(Student.class).load(1L); // return null
 
@@ -54,18 +59,43 @@ public class HibernateIntroMain {
         System.out.printf("Student with ID:%d -> %s%n", result.getId(), result.getName());
 
 
-        //Read Entity By Id 0.3
+        //List Of Students Using HQL with stream
+        printListOfStudentsWithStream(session);
+
+
+
+        //QuerySelectByName
+        session.beginTransaction();
+        session.createQuery("FROM Student WHERE name = :name", Student.class)
+                .setParameter("name","Jon Doe")
+                .stream().forEach(System.out::println);
+        session.getTransaction().commit();
+
+        //Close session
+        session.close();
+    }
+
+
+
+
+
+    private static void printListOfStudentsWithStream(Session session) {
+        session.beginTransaction();
+        session.createQuery("FROM Student ", Student.class)
+                .setFirstResult(5)
+                .setMaxResults(10)
+                .stream().forEach(System.out::println);
+        session.getTransaction().commit();
+        System.out.println();
+    }
+
+    private static void getStudentByIdV1(Session session) {
         session.beginTransaction();
         session.setHibernateFlushMode(FlushMode.MANUAL);
         long queryId = 100L;
         Optional<Student> result5 = session.byId(Student.class).loadOptional(queryId);
-
-
         session.getTransaction().commit();
         System.out.printf("Student: %s%n", result5.orElseGet(() -> new Student("Unknwon")));
-        // result5.isPresent
-
-        //Close session
-        session.close();
+        // result5.isPresent if/else
     }
 }
