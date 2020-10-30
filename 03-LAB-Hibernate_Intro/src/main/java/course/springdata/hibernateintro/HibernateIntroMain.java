@@ -6,6 +6,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import java.util.Optional;
 
 public class HibernateIntroMain {
@@ -70,6 +73,23 @@ public class HibernateIntroMain {
                 .setParameter(1,"Jon Doe")
                 .stream().forEach(System.out::println);
         session.getTransaction().commit();
+
+
+
+
+        //Type-safe criteria queries
+        System.out.println();
+        CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();//builder
+        CriteriaQuery<Student> query = criteriaBuilder.createQuery(Student.class);//query
+        Root<Student> rootStudent = query.from(Student.class);// from student entity
+        CriteriaQuery<Student> criteriaQueryFromRootStudent = query.select(rootStudent).where(criteriaBuilder.like(rootStudent.get("name"), "J"));
+        session.createQuery(criteriaQueryFromRootStudent).getResultStream()
+                .forEach(System.out::println);
+
+
+
+
+
 
         //Close session
         session.close();
