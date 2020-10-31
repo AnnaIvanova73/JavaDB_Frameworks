@@ -1,6 +1,7 @@
 package core;
 
 import core.interfaces.FactoryTasks;
+import entities.Address;
 import entities.Department;
 import entities.Employee;
 import entities.Town;
@@ -14,7 +15,7 @@ import static constants.SqlQuarries.*;
 
 public class FactoryTasksImpl implements FactoryTasks {
 
-    private static StringBuilder builder = new StringBuilder();
+    private final static StringBuilder builder = new StringBuilder();
 
     @Override
     public void townsToLowerCaseEx2(EntityManager entityManager) {
@@ -58,9 +59,9 @@ public class FactoryTasksImpl implements FactoryTasks {
         builder.setLength(0);
 
         List<Employee> employees = entityManager.createQuery("SELECT e " +
-                        "FROM Employee e " +
-                        "JOIN Department d ON d.name = e.department.name WHERE d.name =  'Research and Development' " +
-                        "order by e.salary, e.id ", Employee.class)
+                "FROM Employee e " +
+                "JOIN Department d ON d.name = e.department.name WHERE d.name =  'Research and Development' " +
+                "order by e.salary, e.id ", Employee.class)
                 .getResultList();
 
         employees.forEach(e -> {
@@ -69,7 +70,50 @@ public class FactoryTasksImpl implements FactoryTasks {
                     .append(e.getSalary())
                     .append(System.lineSeparator());
         });
+
         entityManager.close();
         return builder.length() == 0 ? "Clean DB, couldn't find result" : builder.toString().trim();
     }
+
+    @Override
+    public String updateAddressByLastNameEx6(EntityManager entityManager, String lastname) {
+        builder.setLength(0);
+        Address address = createAddress(ADDRESS_TEXT);
+        entityManager.getTransaction().begin();
+        entityManager.persist(address);
+        entityManager.getTransaction().commit();
+        Integer id = address.getId();
+
+        Object object = entityManager.createQuery("" +
+                "SELECT e FROM Employee e WHERE e.lastName = :name ")
+                .setParameter("name", lastname)
+                .getSingleResult();
+
+        Employee employee = (Employee) object;
+        entityManager.getTransaction().begin();
+        employee.setAddress(address);
+        entityManager.getTransaction().commit();
+        entityManager.close();
+        Address address1 = employee.getAddress();
+        builder.append("Changed row:").append(System.lineSeparator())
+                .append("Full name: ")
+                .append(employee.getFirstName())
+                .append(" ")
+                .append(employee.getLastName())
+                .append(System.lineSeparator())
+                .append("Address: ")
+                .append(address1.getText())
+                .append(System.lineSeparator())
+                .append("Address ID: ")
+                .append(address1.getId());
+        return builder.toString().trim();
+    }
+
+    @Override
+    public Address createAddress(String text) {
+        Address address = new Address();
+        address.setText(text);
+        return address;
+    }
+
 }

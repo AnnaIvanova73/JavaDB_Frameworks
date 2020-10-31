@@ -80,6 +80,12 @@ public class EngineImpl implements Engine {
             case 5:
                 writer.writeln(this.factory.extractAllEmployeesFromDepartmentsEx5(entityManager));
                 break;
+            case 6:
+                writer.writeln(REMINDER_CLEAR_DB);
+                String lastName = reader.read();
+                writer.writeln(this.factory.updateAddressByLastNameEx6(entityManager,lastName));
+                writer.writeln(DB_CHANGED);
+                break;
         }
 
     }
