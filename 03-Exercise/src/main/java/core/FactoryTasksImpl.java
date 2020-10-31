@@ -1,32 +1,46 @@
 package core;
 
-import core.interfaces.FactoryExecuteTasks;
+import core.interfaces.FactoryTasks;
+import entities.Employee;
 import entities.Town;
 
 import javax.persistence.EntityManager;
 import java.util.List;
 
-public class FactoryTasksImpl implements FactoryExecuteTasks {
+import static constants.SqlQuarries.*;
 
+public class FactoryTasksImpl implements FactoryTasks {
+    private static StringBuilder builder = new StringBuilder();
+    @Override
+    public void townsToLowerCase(EntityManager entityManager){
+        List<Town> towns = entityManager
+                .createQuery(TOWNS_TO_LOWER_CASE,Town.class)
+                .getResultList();
+        entityManager.getTransaction().begin();
+        towns.forEach(entityManager::detach);
+        for (Town town : towns) {
+            town.setName(town.getName().toUpperCase());
+        }
+        towns.forEach(entityManager::merge);
+        entityManager.getTransaction().commit();
+    }
 
     @Override
-    public void execute(int numberTask, EntityManager entityManager) {
-
-        switch (numberTask){
-            case 2 :
-                List<Town> towns = entityManager
-                        .createQuery("SELECT t FROM Town t ", Town.class)
-                        .getResultList();
-                System.out.println();
-                break;
-            case 3 :
-                break;
-            case 4 :
-                break;
-            case 5 :
-                break;
-            case 6 :
-                break;
-        }
+    public boolean checkExistenceOfEmployee(EntityManager entityManager, String nameOfEmployee) {
+        List<Employee> employees = entityManager.createQuery(CHECK_DB_FOR_EMPLOYEE_BY_NAME,Employee.class)
+                .setParameter("name",nameOfEmployee)
+                .getResultList();
+        return employees.size() == 0;
     }
+
+    @Override
+    public String employeesWithSalaryOver5000(EntityManager entityManager) {
+        builder.setLength(0);
+
+
+
+        return builder.toString().trim();
+    }
+
+
 }

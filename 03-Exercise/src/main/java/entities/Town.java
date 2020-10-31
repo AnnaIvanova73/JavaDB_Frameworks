@@ -1,6 +1,7 @@
 package entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "towns")
@@ -27,4 +28,5 @@ public class Town {
     public void setName(String name) {
         this.name = name;
     }
+
 }
