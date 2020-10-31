@@ -1,7 +1,9 @@
 package io.interfaces;
 
+import java.io.IOException;
+
 public interface InputParser {
 
-    public String[] parseStringArray();
-    public int[] parseIntegerArray();
+     String[] parseStringArray() throws IOException;
+     Integer[] parseIntegerArray() throws IOException;
 }
