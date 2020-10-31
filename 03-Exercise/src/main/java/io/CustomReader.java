@@ -10,8 +10,7 @@ public class CustomReader implements Reader {
 
     private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-    public String read() throws IOException {
+    public  String read() throws IOException {
         return reader.readLine();
     }
-
 }
