@@ -1,5 +1,7 @@
 package io.interfaces;
 
+import java.io.BufferedReader;
+
 public interface Reader {
-    StringBuilder builder = null;
+    BufferedReader reader = null;
 }
