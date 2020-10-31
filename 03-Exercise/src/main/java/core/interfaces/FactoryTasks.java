@@ -5,8 +5,8 @@ import java.io.IOException;
 
 public interface FactoryTasks {
 
-     void townsToLowerCase(EntityManager entityManager);
-     boolean checkExistenceOfEmployee (EntityManager entityManager,String nameOfEmployee);
-     String employeesWithSalaryOver5000 (EntityManager entityManager);
+     void townsToLowerCaseEx2(EntityManager entityManager);
+     boolean checkExistenceOfEmployeeEx3(EntityManager entityManager, String nameOfEmployee);
+     String employeesWithSalaryOver5000Ex4(EntityManager entityManager);
 
 }

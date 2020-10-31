@@ -7,7 +7,6 @@ import io.CustomWriterImpl;
 import io.InputParserImpl;
 import io.interfaces.CustomWriter;
 import io.interfaces.InputParser;
-import lombok.SneakyThrows;
 
 import javax.persistence.EntityManager;
 
@@ -38,12 +37,12 @@ public class EngineImpl implements Engine {
     public void run() {
 
         String input;
+        this.writer.writeln(TASK_NAVIGATION_MSG);
         try{
             while (!(input = this.reader.read()).equals("EXIT")) {
-                this.writer.writeln(TASK_NAVIGATION_MSG);
                 Integer tasksInput = Integer.parseInt(input);
                 execute(tasksInput);
-
+                this.writer.writeln(TASK_NAVIGATION_MSG);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -58,19 +57,19 @@ public class EngineImpl implements Engine {
 
         switch (tasksInput){
             case 2:
-                this.factory.townsToLowerCase(this.entityManager);
+                this.factory.townsToLowerCaseEx2(this.entityManager);
                 writer.writeln(DB_CHANGED);
                 break;
             case 3:
                 writer.writeln(ENTER_EMPLOYEE_NAME);
                 String employee = reader.read();
                 String output = this.factory
-                        .checkExistenceOfEmployee(this.entityManager, employee)
+                        .checkExistenceOfEmployeeEx3(this.entityManager, employee)
                         ? NEGATIVE : POSITIVE;
                 writer.writeln(output);
                 break;
             case 4:
-
+                writer.writeln(this.factory.employeesWithSalaryOver5000Ex4(entityManager));
                 break;
         }
 

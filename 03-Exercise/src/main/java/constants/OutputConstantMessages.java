@@ -8,4 +8,5 @@ public class OutputConstantMessages {
     public static final String POSITIVE = "Yes";
     public static final String ENTER_EMPLOYEE_NAME = "Enter employee name";
 
+
 }
