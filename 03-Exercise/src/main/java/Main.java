@@ -10,5 +10,8 @@ public class Main {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("PU_Name");
         EntityManager entityManager = emf.createEntityManager();
         Engine engine = new EngineImpl(entityManager);
+        engine.run();
     }
 }
+
+

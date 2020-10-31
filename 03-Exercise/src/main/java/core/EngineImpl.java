@@ -15,7 +15,7 @@ import static io.CustomReader.*;
 
 public class EngineImpl implements Engine {
 
-    private final EntityManager entityManager;
+    public final EntityManager entityManager;
     private CustomWriter writer;
     private CustomReader reader;
     private InputParser parser;
@@ -33,10 +33,12 @@ public class EngineImpl implements Engine {
     public void run() {
 
         this.writer.writeln("Enter number of task, else enter EXIT");
-        while (!this.reader.read().equals("EXIT")) {
+        String input;
+        while (!(input=this.reader.read()).equals("EXIT")) {
             FactoryExecuteTasks factory = new FactoryTasksImpl();
-            Integer tasksInput = Integer.parseInt(this.reader.read());
-            factory.execute(tasksInput);
+            Integer tasksInput = Integer.parseInt(input);
+            factory.execute(tasksInput,entityManager);
         }
+        entityManager.close();
     }
 }
