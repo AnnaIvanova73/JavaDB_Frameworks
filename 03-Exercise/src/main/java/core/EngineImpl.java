@@ -9,6 +9,8 @@ import io.interfaces.CustomWriter;
 import io.interfaces.InputParser;
 
 import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 
 import java.io.IOException;
 
@@ -17,19 +19,22 @@ import static constants.OutputConstantMessages.*;
 
 public class EngineImpl implements Engine {
 
-    public final EntityManager entityManager;
+    public final EntityManagerFactory emf;
+    public EntityManager entityManager;
+    private final FactoryTasks factory;
     private final CustomWriter writer;
     private final CustomReader reader;
     private final InputParser parser;
-    private final FactoryTasks factory;
 
 
-    public EngineImpl(EntityManager entityManager) {
-        this.entityManager = entityManager;
+    public EngineImpl() {
+        this.emf = Persistence.createEntityManagerFactory("PU_Name");
+        this.entityManager = emf.createEntityManager();
+
+        this.factory = new FactoryTasksImpl();
         this.writer = new CustomWriterImpl();
         this.reader = new CustomReader();
         this.parser = new InputParserImpl();
-        this.factory = new FactoryTasksImpl();
     }
 
 
@@ -38,11 +43,12 @@ public class EngineImpl implements Engine {
 
         String input;
         this.writer.writeln(TASK_NAVIGATION_MSG);
-        try{
+        try {
             while (!(input = this.reader.read()).equals("EXIT")) {
                 Integer tasksInput = Integer.parseInt(input);
                 execute(tasksInput);
                 this.writer.writeln(TASK_NAVIGATION_MSG);
+                this.entityManager = emf.createEntityManager();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -52,10 +58,10 @@ public class EngineImpl implements Engine {
     }
 
 
-    private void execute (Integer tasksInput) throws IOException {
+    private void execute(Integer tasksInput) throws IOException {
 
 
-        switch (tasksInput){
+        switch (tasksInput) {
             case 2:
                 this.factory.townsToLowerCaseEx2(this.entityManager);
                 writer.writeln(DB_CHANGED);
@@ -70,6 +76,9 @@ public class EngineImpl implements Engine {
                 break;
             case 4:
                 writer.writeln(this.factory.employeesWithSalaryOver5000Ex4(entityManager));
+                break;
+            case 5:
+                writer.writeln(this.factory.extractAllEmployeesFromDepartmentsEx5(entityManager));
                 break;
         }
 

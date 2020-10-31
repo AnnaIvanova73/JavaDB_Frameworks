@@ -8,9 +8,7 @@ import javax.persistence.Persistence;
 public class Main {
 
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("PU_Name");
-        EntityManager entityManager = emf.createEntityManager();
-        Engine engine = new EngineImpl(entityManager);
+        Engine engine = new EngineImpl();
         engine.run();
     }
 }
