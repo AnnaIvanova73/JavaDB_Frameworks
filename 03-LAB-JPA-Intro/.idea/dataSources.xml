@@ -7,5 +7,15 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/school_jpa</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="school_jpa/Hibernate" uuid="5e6987e0-816f-410b-ba54-24c2978bfce1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+F:/SpringData/03-LAB-JPA-Intro/src/main/resources/META-INF/persistence.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/school_jpa?createDatabaseIfNotExist=true</jdbc-url>
+    </data-source>
   </component>
 </project>

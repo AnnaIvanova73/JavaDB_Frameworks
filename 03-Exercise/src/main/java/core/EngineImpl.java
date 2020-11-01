@@ -46,11 +46,11 @@ public class EngineImpl implements Engine {
                 this.writer.writeln(TASK_NAVIGATION_MSG);
                 this.writer.writelnInRed(TRUNCATE_OR_RELOAD);
                 this.entityManager = emf.createEntityManager();
+
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         entityManager.close();
     }
 
