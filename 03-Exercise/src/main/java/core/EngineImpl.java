@@ -4,9 +4,7 @@ import core.interfaces.Engine;
 import core.interfaces.FactoryTasks;
 import io.CustomReader;
 import io.CustomWriterImpl;
-import io.InputParserImpl;
 import io.interfaces.CustomWriter;
-import io.interfaces.InputParser;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -24,7 +22,6 @@ public class EngineImpl implements Engine {
     private final FactoryTasks factory;
     private final CustomWriter writer;
     private final CustomReader reader;
-    private final InputParser parser;
 
 
     public EngineImpl() {
@@ -34,7 +31,6 @@ public class EngineImpl implements Engine {
         this.factory = new FactoryTasksImpl();
         this.writer = new CustomWriterImpl();
         this.reader = new CustomReader();
-        this.parser = new InputParserImpl();
     }
 
 
@@ -48,6 +44,7 @@ public class EngineImpl implements Engine {
                 Integer tasksInput = Integer.parseInt(input);
                 execute(tasksInput);
                 this.writer.writeln(TASK_NAVIGATION_MSG);
+                this.writer.writelnInRed(TRUNCATE_OR_RELOAD);
                 this.entityManager = emf.createEntityManager();
             }
         } catch (IOException e) {
@@ -87,7 +84,7 @@ public class EngineImpl implements Engine {
             case 6:
                 writer.writeln(REMINDER_CLEAR_DB);
                 String lastName = reader.read();
-                writer.writeln(this.factory.updateAddressByLastNameEx6(entityManager,lastName));
+                writer.writeln(this.factory.updateAddressByLastNameEx6(entityManager, lastName));
                 writer.writeln(DB_CHANGED);
                 entityManager.close();
                 break;
@@ -98,7 +95,7 @@ public class EngineImpl implements Engine {
             case 8:
                 writer.writeln(EMPLOYEE_ID);
                 int id = Integer.parseInt(reader.read());
-                writer.writeln(this.factory.getEmployeeByIdEx8(entityManager,id));
+                writer.writeln(this.factory.getEmployeeByIdEx8(entityManager, id));
                 entityManager.close();
                 break;
             case 9:
@@ -110,15 +107,24 @@ public class EngineImpl implements Engine {
                 entityManager.close();
                 break;
             case 11:
-
+                writer.writeln(PATTERN);
+                String input = reader.read().toUpperCase();
+                writer.writeln(this.factory.findEmployeesByFirstNameEx11(entityManager, input));
                 entityManager.close();
                 break;
             case 12:
-
+                writer.writelnInRed(TRUNCATE_TABLES);
+                writer.writeln(this.factory.employeesMaximumSalariesEx12(entityManager));
                 entityManager.close();
                 break;
             case 13:
+                writer.writeln(ASK_TOWN_NAME);
+               String read = reader.read();
+                writer.writeln(this.factory.deleteAddressByTown(entityManager, read));
                 entityManager.close();
+                break;
+            default:
+                writer.writelnInRed(TASK_NOT_EXISTS);
                 break;
         }
 

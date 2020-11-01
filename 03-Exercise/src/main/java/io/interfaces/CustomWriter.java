@@ -6,5 +6,7 @@ public interface CustomWriter {
 
     void writeln(String message);
 
+    void writelnInRed(String message);
+
      void newLine();
 }

@@ -3,7 +3,6 @@ package constants;
 import java.math.BigDecimal;
 
 public class ConstantValues {
-    public static final Long EMPLOYEE_SALARY = 50000L;
     public static final String ADDRESS_TEXT  = "Vitoshka 15";
     public static final String  ENGINEERING = "Engineering";
     public static final String  TOOL_DESIGN = "Tool Design";

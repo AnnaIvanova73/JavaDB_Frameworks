@@ -17,5 +17,8 @@ public interface FactoryTasks {
      String getEmployeeByIdEx8(EntityManager entityManager, int id);
      String findLatestProjectsEx9(EntityManager entityManager);
      String increaseSalariesEx10(EntityManager entityManager);
+     String findEmployeesByFirstNameEx11 (EntityManager entityManager,String input);
+     String employeesMaximumSalariesEx12 (EntityManager entityManager);
+     String deleteAddressByTown (EntityManager entityManager,String town);
 
 }

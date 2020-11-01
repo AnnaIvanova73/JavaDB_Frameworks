@@ -4,11 +4,11 @@ import core.interfaces.FactoryTasks;
 import entities.*;
 
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static constants.ConstantValues.*;
@@ -51,7 +51,7 @@ public class FactoryTasksImpl implements FactoryTasks {
                 .createQuery(EMPLOYEE_SALARY_ORDINAL_PARAMETER, Employee.class)
                 .getResultList();
         employees.forEach(e -> builder.append(e.getFirstName()).append(System.lineSeparator()));
-        return builder.toString().trim().equals("") ? CLEAN_DB : builder.toString().trim();
+        return getString();
 
     }
 
@@ -59,14 +59,14 @@ public class FactoryTasksImpl implements FactoryTasks {
     public String extractAllEmployeesFromDepartmentsEx5(EntityManager entityManager) {
         builder.setLength(0);
 
-        List<Employee> employees = entityManager.createQuery(EXTRACT_EMPLOYEES_BY_DEPARTMENT,Employee.class)
+        List<Employee> employees = entityManager.createQuery(EXTRACT_EMPLOYEES_BY_DEPARTMENT, Employee.class)
                 .getResultList();
 
         employees.forEach(e ->
-                builder.append(String.format(DEPARTMENTS_AND_SALARY,e.getFirstName(),e.getSalary()))
-                .append(System.lineSeparator()));
+                builder.append(String.format(DEPARTMENTS_AND_SALARY, e.getFirstName(), e.getLastName(), e.getSalary()))
+                        .append(System.lineSeparator()));
 
-        return builder.length() == 0 ? CLEAN_DB : builder.toString().trim();
+        return getString();
     }
 
     @Override
@@ -84,8 +84,8 @@ public class FactoryTasksImpl implements FactoryTasks {
         employee.setAddress(address);
         entityManager.getTransaction().commit();
 
-        return String.format(PRINT_SINGLE_ROW,employee.getFirstName(),employee.getLastName()
-                ,employee.getAddress().getId(),employee.getAddress().getText());
+        return String.format(PRINT_SINGLE_ROW, employee.getFirstName(), employee.getLastName()
+                , employee.getAddress().getId(), employee.getAddress().getText());
     }
 
     @Override
@@ -98,21 +98,21 @@ public class FactoryTasksImpl implements FactoryTasks {
                 .getResultList();
         addresses.forEach(a -> builder.append(a.getText()).
                 append(", ").append(a.getTown().getName()).append(" - ")
-                .append(a.getEmployees().size()).append(System.lineSeparator()));
+                .append(a.getEmployees().size()).append(" employees").append(System.lineSeparator()));
 
-        return builder.length() == 0 ? CLEAN_DB : builder.toString().trim();
+        return getString();
     }
 
     @Override
     public String getEmployeeByIdEx8(EntityManager entityManager, int id) {
         builder.setLength(0);
         Employee employee = entityManager.find(Employee.class, id);
-        builder.append(String.format(EMPLOYEE_JOB_TITLE,employee.getFirstName(),
-                employee.getLastName(),employee.getJobTitle()));
+        builder.append(String.format(EMPLOYEE_JOB_TITLE, employee.getFirstName(),
+                employee.getLastName(), employee.getJobTitle()));
         employee.getProjects().stream()
-                .sorted(Comparator.comparing(Project::getName)).forEach(p -> builder.append(String.format(EMPLOYEE_PROJECTS,p.getName())));
+                .sorted(Comparator.comparing(Project::getName)).forEach(p -> builder.append(String.format(EMPLOYEE_PROJECTS, p.getName())));
 
-       return builder.toString().trim();
+        return getString();
     }
 
     @Override
@@ -134,20 +134,20 @@ public class FactoryTasksImpl implements FactoryTasks {
             LocalDateTime endDate = project.getEndDate();
             String start = startDate == null ? "null" : startDate.format(formatter);
             String end = endDate == null ? "null" : endDate.format(formatter);
-            builder.append(String.format(PROJECTS,project.getName(),project.getDescription(),
-                    start,end));
+            builder.append(String.format(PROJECTS, project.getName(), project.getDescription(),
+                    start, end));
         }
-        return builder.length() == 0 ? CLEAN_DB : builder.toString().trim();
+        return getString();
     }
 
     @Override
     public String increaseSalariesEx10(EntityManager entityManager) {
         builder.setLength(0);
-        List<Employee> employees = entityManager.createQuery(INCREASE_SALARY_BY_DEP,Employee.class)
-                .setParameter("dep1",ENGINEERING)
-                .setParameter("dep2",TOOL_DESIGN)
-                .setParameter("dep3",MARKETING)
-                .setParameter("dep4",INFORMATION_SERVICES)
+        List<Employee> employees = entityManager.createQuery(INCREASE_SALARY_BY_DEP, Employee.class)
+                .setParameter("dep1", ENGINEERING)
+                .setParameter("dep2", TOOL_DESIGN)
+                .setParameter("dep3", MARKETING)
+                .setParameter("dep4", INFORMATION_SERVICES)
                 .getResultList();
         entityManager.getTransaction().begin();
 
@@ -158,10 +158,80 @@ public class FactoryTasksImpl implements FactoryTasks {
 
         entityManager.getTransaction().commit();
         employees.forEach(e -> builder.append(String.format
-                (NAME_AND_SALARY,e.getFirstName(),e.getLastName(),e.getSalary())));
-        return builder.length() == 0 ? CLEAN_DB : builder.toString().trim();
+                (NAME_AND_SALARY, e.getFirstName(), e.getLastName(), e.getSalary())));
+        return getString();
     }
 
+    @Override
+    public String findEmployeesByFirstNameEx11(EntityManager entityManager, String input) {
+        builder.setLength(0);
+        List<Employee> employees = entityManager.createQuery(
+                FIND_EMPLOYEE_BY_PATTERN, Employee.class)
+                .setParameter("pattern", input + "%")
+                .getResultList();
+
+        employees.forEach(e -> builder.append(String.format(EMPLOYEE_JOB_TITLE_SALARY,
+                e.getFirstName(), e.getLastName(), e.getJobTitle(), e.getSalary())));
+
+        return getString();
+    }
+
+    @Override
+    public String employeesMaximumSalariesEx12(EntityManager entityManager) {
+        builder.setLength(0);
+        Query query = entityManager.createQuery(GROUP_BY);
+        List employees = query.getResultList();
+        for (Object employee : employees) {
+            Object[] dep = (Object[]) employee;
+            String format = String.format(DEP_MAX_SALARY, (String) dep[0], (BigDecimal) dep[1]);
+            builder.append(format);
+        }
+        return getString();
+    }
+
+    @Override
+    public String deleteAddressByTown(EntityManager entityManager, String townName) {
+
+        entityManager.getTransaction().begin();
+
+        List<Employee> employees = entityManager.createQuery(
+                "SELECT e FROM Employee AS e WHERE e.address.town.name = :town", Employee.class)
+                .setParameter("town", townName)
+                .getResultList();
+
+        if (employees.isEmpty()) {
+            return "Town not found!";
+        }
+
+        for (Employee employee : employees) {
+            employee.setAddress(null);
+        }
+
+        List<Address> addresses = entityManager.createQuery("SELECT a FROM Address AS a WHERE a.town.name = :town", Address.class)
+                .setParameter("town", townName)
+                .getResultList();
+
+        for (Address address : addresses) {
+            entityManager.remove(address);
+        }
+
+        Town town = entityManager.createQuery("SELECT t FROM Town AS t WHERE t.name = :town", Town.class)
+                .setParameter("town", townName)
+                .getSingleResult();
+
+        entityManager.remove(town);
+
+
+        entityManager.getTransaction().commit();
+        builder.setLength(0);
+        builder.append(String.format(MSG_DELETE_ADDRESSES, addresses.size(), townName));
+        return getString();
+    }
+
+
+    private String getString() {
+        return builder.length() == 0 ? CLEAN_DB : builder.toString().trim();
+    }
 
     private Address createAddress(String text) {
         Address address = new Address();
@@ -169,5 +239,4 @@ public class FactoryTasksImpl implements FactoryTasks {
         address.setId(32);
         return address;
     }
-
 }

@@ -3,6 +3,8 @@ package entities;
 import javax.persistence.*;
 import java.util.List;
 
+import static constants.SqlQuarries.GET_TOWN_BY_ID;
+
 @Entity
 @Table(name = "towns")
 public class Town {
