@@ -65,6 +65,7 @@ public class EngineImpl implements Engine {
             case 2:
                 this.factory.townsToLowerCaseEx2(this.entityManager);
                 writer.writeln(DB_CHANGED);
+                entityManager.close();
                 break;
             case 3:
                 writer.writeln(ENTER_EMPLOYEE_NAME);
@@ -73,18 +74,51 @@ public class EngineImpl implements Engine {
                         .checkExistenceOfEmployeeEx3(this.entityManager, employee)
                         ? NEGATIVE : POSITIVE;
                 writer.writeln(output);
+                entityManager.close();
                 break;
             case 4:
                 writer.writeln(this.factory.employeesWithSalaryOver5000Ex4(entityManager));
+                entityManager.close();
                 break;
             case 5:
                 writer.writeln(this.factory.extractAllEmployeesFromDepartmentsEx5(entityManager));
+                entityManager.close();
                 break;
             case 6:
                 writer.writeln(REMINDER_CLEAR_DB);
                 String lastName = reader.read();
                 writer.writeln(this.factory.updateAddressByLastNameEx6(entityManager,lastName));
                 writer.writeln(DB_CHANGED);
+                entityManager.close();
+                break;
+            case 7:
+                writer.writeln(this.factory.addressesWithEmployeeCountEx7(entityManager));
+                entityManager.close();
+                break;
+            case 8:
+                writer.writeln(EMPLOYEE_ID);
+                int id = Integer.parseInt(reader.read());
+                writer.writeln(this.factory.getEmployeeByIdEx8(entityManager,id));
+                entityManager.close();
+                break;
+            case 9:
+                writer.writeln(this.factory.findLatestProjectsEx9(entityManager));
+                entityManager.close();
+                break;
+            case 10:
+                writer.writeln(this.factory.increaseSalariesEx10(entityManager));
+                entityManager.close();
+                break;
+            case 11:
+
+                entityManager.close();
+                break;
+            case 12:
+
+                entityManager.close();
+                break;
+            case 13:
+                entityManager.close();
                 break;
         }
 
