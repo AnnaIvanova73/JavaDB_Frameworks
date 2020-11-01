@@ -195,19 +195,19 @@ public class FactoryTasksImpl implements FactoryTasks {
         entityManager.getTransaction().begin();
 
         List<Employee> employees = entityManager.createQuery(
-                "SELECT e FROM Employee AS e WHERE e.address.town.name = :town", Employee.class)
+                GET_EMPLOYEE_BY_ADDRESS, Employee.class)
                 .setParameter("town", townName)
                 .getResultList();
 
         if (employees.isEmpty()) {
-            return "Town not found!";
+            return TOWN_NOT_FOUND;
         }
 
         for (Employee employee : employees) {
             employee.setAddress(null);
         }
 
-        List<Address> addresses = entityManager.createQuery("SELECT a FROM Address AS a WHERE a.town.name = :town", Address.class)
+        List<Address> addresses = entityManager.createQuery(GET_ADDRESSES_BY_TOWN_NAME, Address.class)
                 .setParameter("town", townName)
                 .getResultList();
 
@@ -215,7 +215,7 @@ public class FactoryTasksImpl implements FactoryTasks {
             entityManager.remove(address);
         }
 
-        Town town = entityManager.createQuery("SELECT t FROM Town AS t WHERE t.name = :town", Town.class)
+        Town town = entityManager.createQuery(GET_TOWN, Town.class)
                 .setParameter("town", townName)
                 .getSingleResult();
 

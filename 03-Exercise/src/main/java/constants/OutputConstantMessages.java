@@ -30,5 +30,6 @@ public class OutputConstantMessages {
     public static final String MSG_DELETE_ADDRESSES = "%d addresses in %s deleted";
     public static final String ASK_TOWN_NAME = "Enter Town name:";
     public static final String TASK_NOT_EXISTS = "No such task";
+    public static final String TOWN_NOT_FOUND = "Town not found!";
 
 }

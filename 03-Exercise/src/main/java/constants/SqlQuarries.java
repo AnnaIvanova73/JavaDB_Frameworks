@@ -29,9 +29,12 @@ public class SqlQuarries {
             "WHERE UPPER(e.firstName) LIKE :pattern ";
 
     public static final String GET_TOWN_BY_ID = "SELECT t FROM Town t WHERE t.name = :town ";
-    public static final String GET_ADDRESSES = "SELECT a FROM Address a WHERE a.town.name = :name ";
-    public static final String GET_EMPLOYEE_BY_ADDRESS = "SELECT e FROM Employee e " +
-            "WHERE e.address.id = :id ";
+
+    public static final String GET_ADDRESSES_BY_TOWN_NAME = "SELECT a FROM Address AS a WHERE a.town.name = :town ";
+
+    public static final String GET_EMPLOYEE_BY_ADDRESS = "SELECT e FROM Employee AS e WHERE e.address.town.name = :town";
+    public static final String GET_TOWN = "SELECT t FROM Town AS t WHERE t.name = :town" ;
+
     public static final String GROUP_BY = "SELECT e.department.name, MAX(e.salary) AS ms FROM Employee  e" +
             " GROUP BY e.department.name  HAVING MAX(e.salary) NOT BETWEEN 30000 AND 70000";
 }
