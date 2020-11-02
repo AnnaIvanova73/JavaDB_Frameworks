@@ -1,4 +1,4 @@
-package schemas.gringotts;
+package schemas.sales;
 import interfaces.*;
 
 import javax.persistence.EntityManager;
