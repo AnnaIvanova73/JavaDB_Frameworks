@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7174deeb-41a2-412f-a3dd-62fc72c11552" name="Default Changelist" comment="added tasks">
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/dataSources/e921ea80-039b-40c5-b675-5d68dd824416/storage_v2/_src_/schema/sales_db.kfxzcw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/dataSources/e921ea80-039b-40c5-b675-5d68dd824416/storage_v2/_src_/schema/university_db.z9NYOg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/dataSources/e921ea80-039b-40c5-b675-5d68dd824416/storage_v2/_src_/schema/wizard_deposits_db.lCoWjA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/01.GringottsDB/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/01.GringottsDB/src/main/java/BaseEntityCommonUse/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/01.GringottsDB/src/main/resources/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/02.SalesDatabase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/university_db/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/university_db/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/university_db/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/university_db/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/resources/UseForEasyXmlChange" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/target/classes/UseForEasyXmlChange" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3c06dd96-455b-4b62-b8de-053cfd5fe3f8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3c06dd96-455b-4b62-b8de-053cfd5fe3f8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/dataSources/e921ea80-039b-40c5-b675-5d68dd824416.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/.idea/dataSources/e921ea80-039b-40c5-b675-5d68dd824416.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/schemas/gringotts/entities/WizardDeposits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/01.GringottsDB/src/main/java/entities/WizardDeposits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/schemas/sales/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/schemas/sales/EngineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/EngineImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/schemas/sales/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/sales/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/schemas/sales/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/sales/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/schemas/sales/entities/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/sales/entities/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/schemas/sales/entities/StoreLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/java/sales/entities/StoreLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Exercise-Hibernate-Code-First/target/classes/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jcRJ9ThqoM4oyDOECSJhvLqu5J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../04-hibernate-code-first/1_GringottsDatabase" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32528734" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="core" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="constants.interfaces" />
+      <recent name="core.interfaces" />
+      <recent name="core" />
+      <recent name="io.interfaces" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="03-Exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7174deeb-41a2-412f-a3dd-62fc72c11552" name="Default Changelist" comment="" />
+      <created>1604101320904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604101320904</updated>
+      <workItem from="1604101322393" duration="14000" />
+      <workItem from="1604101354770" duration="63477000" />
+      <workItem from="1604260356908" duration="168000" />
+      <workItem from="1604260661416" duration="3956000" />
+      <workItem from="1604316053466" duration="9853000" />
+      <workItem from="1604408708689" duration="1863000" />
+      <workItem from="1604413382936" duration="111000" />
+      <workItem from="1604448702112" duration="1349000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1604112730543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604112730543</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1604113125219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604113125219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="correction In Reader">
+      <created>1604113555856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604113555856</updated>
+    </task>
+    <task id="LOCAL-00004" summary="correction io">
+      <created>1604114276746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604114276746</updated>
+    </task>
+    <task id="LOCAL-00005" summary="correction interfaces">
+      <created>1604115595663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604115595663</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init commit">
+      <created>1604118048970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604118048970</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit changes at EngineImpl">
+      <created>1604175057503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604175057503</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added task 4">
+      <created>1604177146146</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604177146146</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added task 5, changes in EntityManager and Engine Construction">
+      <created>1604182048280</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604182048280</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit">
+      <created>1604187334315</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604187334315</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added tasks">
+      <created>1604236297558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604236297558</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finish">
+      <created>1604254875971</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604254875971</updated>
+    </task>
+    <task id="LOCAL-00013" summary="corrected">
+      <created>1604259430284</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604259430284</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="correction In Reader" />
+    <MESSAGE value="correction io" />
+    <MESSAGE value="correction interfaces" />
+    <MESSAGE value="mid commit" />
+    <MESSAGE value="init commit" />
+    <MESSAGE value="commit changes at EngineImpl" />
+    <MESSAGE value="added task 4" />
+    <MESSAGE value="added task 5, changes in EntityManager and Engine Construction" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="added tasks" />
+    <MESSAGE value="finish" />
+    <MESSAGE value="corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1604117402360">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="699" y="321" key="#Assign_Data_Sources/0.0.1600.860@0.0.1600.860" timestamp="1604117402360" />
+    <state x="31" y="45" key="#Live_Templates" timestamp="1604113340014">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="31" y="45" key="#Live_Templates/0.0.1600.860@0.0.1600.860" timestamp="1604113340014" />
+    <state x="280" y="4" key="#Project_Structure" timestamp="1604264437585">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1604264437585" />
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604413411464">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1604413411464" />
+    <state x="566" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604260458908">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="566" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1604260458908" />
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1604241120173">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1604241120173" />
+    <state x="533" y="152" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604113946786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="533" y="152" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1604113946786" />
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604246957257">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1604246957257" />
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1604259428634">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604259428634" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1604449478990">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604449478990" />
+    <state width="1557" height="245" key="GridCell.Tab.0.bottom" timestamp="1604259711694">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="245" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604259711694" />
+    <state width="1557" height="245" key="GridCell.Tab.0.center" timestamp="1604259711694">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="245" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604259711694" />
+    <state width="1557" height="245" key="GridCell.Tab.0.left" timestamp="1604259711694">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="245" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604259711694" />
+    <state width="1557" height="245" key="GridCell.Tab.0.right" timestamp="1604259711694">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="245" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604259711694" />
+    <state width="272" height="457" key="HiddenNamespacesPopup" timestamp="1604117148595">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="272" height="457" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1604117148595" />
+    <state x="615" y="363" key="ReplaceDuplicatesPrompt" timestamp="1604238626837">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="615" y="363" key="ReplaceDuplicatesPrompt/0.0.1600.860@0.0.1600.860" timestamp="1604238626837" />
+    <state x="280" y="4" key="SettingsEditor" timestamp="1604156766532">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1604156766532" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604259432448">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604259432448" />
+    <state x="678" y="317" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604115720444">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="678" y="317" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.860@0.0.1600.860" timestamp="1604115720444" />
+    <state x="571" y="243" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604111376084">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="571" y="243" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1604111376084" />
+    <state x="842" y="354" key="extract.method.dialog" timestamp="1604238858155">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="842" y="354" key="extract.method.dialog/0.0.1600.860@0.0.1600.860" timestamp="1604238858155" />
+    <state x="182" y="90" key="new project wizard" timestamp="1604408830991">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="90" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1604408830991" />
+    <state x="500" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1604238649267">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="500" y="187" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1604238649267" />
+    <state x="580" y="234" key="save.file.as.template.dialog" timestamp="1604113324606">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="234" key="save.file.as.template.dialog/0.0.1600.860@0.0.1600.860" timestamp="1604113324606" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/FactoryTasksImpl.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/FactoryTasksImpl.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/EngineImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/EngineImpl.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/core/interfaces/FactoryTasks.java</url>
+          <line>19</line>
+          <properties class="core.interfaces.FactoryTasks" method="findEmployeesByFirstNameEx11">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/constants/SqlQuarries.java</url>
+          <line>30</line>
+          <properties field="GET_TOWN_BY_ID" class="constants.SqlQuarries" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
