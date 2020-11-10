@@ -6,9 +6,9 @@ import softuni.springintro.domain.entities.Book;
 import softuni.springintro.domain.entities.Category;
 import softuni.springintro.domain.enums.AgeRestriction;
 import softuni.springintro.domain.enums.EditionType;
-import softuni.springintro.repositories.AuthorRepository;
-import softuni.springintro.repositories.BookRepository;
-import softuni.springintro.repositories.CategoryRepository;
+import softuni.springintro.domain.repositories.AuthorRepository;
+import softuni.springintro.domain.repositories.BookRepository;
+import softuni.springintro.domain.repositories.CategoryRepository;
 import softuni.springintro.services.BookService;
 import softuni.springintro.util.FileUtil;
 

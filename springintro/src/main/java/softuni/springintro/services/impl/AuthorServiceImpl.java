@@ -3,15 +3,12 @@ package softuni.springintro.services.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import softuni.springintro.domain.entities.Author;
-import softuni.springintro.repositories.AuthorRepository;
-import softuni.springintro.repositories.BookRepository;
+import softuni.springintro.domain.repositories.AuthorRepository;
+import softuni.springintro.domain.repositories.BookRepository;
 import softuni.springintro.services.AuthorService;
 import softuni.springintro.util.FileUtil;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 import static softuni.springintro.constants.Paths.AUTHOR_FILE_PATH;
 

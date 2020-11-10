@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import softuni.springintro.services.BookService;
 
 import java.util.List;
+import java.util.Scanner;
 
 import static softuni.springintro.constants.MagicStrings.FIRST_TASK;
 
@@ -22,6 +23,9 @@ public class RunFirstTask implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+        System.out.println(s);
         System.err.println(FIRST_TASK);
         List<String> titles = this.bookService.findAllTitles();
         titles.forEach(System.out::println);

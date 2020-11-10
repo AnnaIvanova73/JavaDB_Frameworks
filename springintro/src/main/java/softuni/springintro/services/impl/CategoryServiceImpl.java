@@ -2,7 +2,7 @@ package softuni.springintro.services.impl;
 
 import org.springframework.stereotype.Service;
 import softuni.springintro.domain.entities.Category;
-import softuni.springintro.repositories.CategoryRepository;
+import softuni.springintro.domain.repositories.CategoryRepository;
 import softuni.springintro.services.CategoryService;
 import softuni.springintro.util.FileUtil;
 
