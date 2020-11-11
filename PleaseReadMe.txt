@@ -1,1 +1,0 @@
-Everything is made like different project. Just run them one by one and because it was a bit diffucult to me i would enjoy some constructive commentars
