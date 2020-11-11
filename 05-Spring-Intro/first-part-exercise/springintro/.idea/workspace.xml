@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="021d09ce-dfda-42d4-8599-4bcd3f5d327c" name="Default Changelist" comment="first task springintro">
+      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_2_SalesDatabase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_3_UniversitySystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_4_Hospital_Database/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-Exercise-Spring-Intro/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PleaseReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/SpringIntroExApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/constants/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/controller/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/entities/AgeRestriction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/entities/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/entities/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/entities/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/entities/EditionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/repositories/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/domain/repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/services/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/services/AuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/services/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/java/com/softuni/springintroex/utils/FileUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/resources/files/authors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/resources/files/books.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/main/resources/files/categories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advquering/src/test/java/com/softuni/springintroex/SpringIntroExApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/SpringintrousersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/email/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/email/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/password/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/password/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/constants/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/constants/TextConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/AlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/PictureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/TownRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/PictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/TownService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/PictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/TownServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springintrousers/src/test/java/softuni/springintrousers/SpringintrousersApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-Exercise/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Exercise/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/bb59d20e-17e5-4311-bc6a-faa3d367c8a6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/bb59d20e-17e5-4311-bc6a-faa3d367c8a6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dbnavigator.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\35987\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jysX2lcJaAnnrnpN4XXpuc71e9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3908046" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="softuni.springintro" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="softuni.springintro.services.impl" />
+      <recent name="softuni.springintro.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringintroApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springintro [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringintroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springintro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="softuni.springintro.SpringintroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.springintro [spring-boot:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="021d09ce-dfda-42d4-8599-4bcd3f5d327c" name="Default Changelist" comment="" />
+      <created>1604787704639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604787704639</updated>
+      <workItem from="1604787709587" duration="3498000" />
+      <workItem from="1604791269814" duration="38228000" />
+      <workItem from="1604937390541" duration="12365000" />
+    </task>
+    <task id="LOCAL-00001" summary="first task springintro">
+      <created>1604890596531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604890596531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first task springintro">
+      <created>1604970040883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604970040883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="app">
+      <created>1604970125164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604970125164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first task springintro" />
+    <MESSAGE value="app" />
+    <option name="LAST_COMMIT_MESSAGE" value="app" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1604890566258">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="699" y="321" key="#Assign_Data_Sources/0.0.1600.860@0.0.1600.860" timestamp="1604890566258" />
+    <state x="392" y="88" key="#Intentions" timestamp="1604801510171">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#Intentions/0.0.1600.860@0.0.1600.860" timestamp="1604801510171" />
+    <state x="31" y="45" key="#Live_Templates" timestamp="1604887760950">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="31" y="45" key="#Live_Templates/0.0.1600.860@0.0.1600.860" timestamp="1604887760950" />
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604881751856">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1604881751856" />
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1604889783987">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1604889783987" />
+    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604801930940">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1604801930940" />
+    <state x="494" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604969699428">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="494" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1604969699428" />
+    <state x="596" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604801775094">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="596" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1604801775094" />
+    <state x="405" y="0" key="CommitChangelistDialog2" timestamp="1604970123432">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="405" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604970123432" />
+    <state x="687" y="188" key="FileChooserDialogImpl" timestamp="1604791051166">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="687" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604791051166" />
+    <state width="1557" height="405" key="GridCell.Tab.0.bottom" timestamp="1604955995032">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604955995032" />
+    <state width="1557" height="405" key="GridCell.Tab.0.center" timestamp="1604955995031">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604955995031" />
+    <state width="1557" height="405" key="GridCell.Tab.0.left" timestamp="1604955995031">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604955995031" />
+    <state width="1557" height="405" key="GridCell.Tab.0.right" timestamp="1604955995031">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604955995031" />
+    <state width="1557" height="405" key="GridCell.Tab.1.bottom" timestamp="1604955995032">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604955995032" />
+    <state width="1557" height="405" key="GridCell.Tab.1.center" timestamp="1604955995032">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1604955995032" />
+    <state width="1557" height="405" key="GridCell.Tab.1.left" timestamp="1604955995032">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1604955995032" />
+    <state width="1557" height="405" key="GridCell.Tab.1.right" timestamp="1604955995032">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="405" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1604955995032" />
+    <state width="217" height="457" key="HiddenNamespacesPopup" timestamp="1604805903583">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="217" height="457" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1604805903583" />
+    <state x="380" y="172" key="IDE.errors.dialog" timestamp="1604956434243">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="172" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1604956434243" />
+    <state x="387" y="8" key="SettingsEditor" timestamp="1604974036700">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="387" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1604974036700" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1604970128769">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604970128769" />
+    <state x="642" y="180" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604884915578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="642" y="180" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.860@0.0.1600.860" timestamp="1604884915578" />
+    <state x="530" y="190" key="extract.method.dialog" timestamp="1604874974106">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="190" key="extract.method.dialog/0.0.1600.860@0.0.1600.860" timestamp="1604874974106" />
+    <state x="182" y="90" key="new project wizard" timestamp="1604969919384">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="90" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1604969919384" />
+    <state x="456" y="197" key="run.anything.popup" timestamp="1604799061098">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="197" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1604799061098" />
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1604795780526">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1604795780526" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/softuni/springintro/domain/entities/Book.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65a5d652-ab08-4822-b8ef-2de4eedd69d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Task_1_GringottsDatabse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_2_SalesDatabase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_4_Hospital_Database/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_5_Bills_Payment_System/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PleaseReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_1_GringottsDatabse/.idea/dataSources/bb59d20e-17e5-4311-bc6a-faa3d367c8a6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_1_GringottsDatabse/.idea/dataSources/bb59d20e-17e5-4311-bc6a-faa3d367c8a6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jo4Sb0tocbTE3f71geuNxMFVnm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task_2_SalesDatabase" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3908046" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Task_3_UniversitySystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65a5d652-ab08-4822-b8ef-2de4eedd69d6" name="Default Changelist" comment="" />
+      <created>1604457111706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604457111706</updated>
+      <workItem from="1604457112979" duration="11656000" />
+      <workItem from="1604529475332" duration="1215000" />
+      <workItem from="1604538695751" duration="577000" />
+      <workItem from="1604707698064" duration="1520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1604511343128">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="699" y="321" key="#Assign_Data_Sources/0.0.1600.860@0.0.1600.860" timestamp="1604511343128" />
+    <state x="280" y="4" key="#Project_Structure" timestamp="1604457313100">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1604457313100" />
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604503515215">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1604503515215" />
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1604505444240">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1604505444240" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1604707830728">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604707830728" />
+    <state width="1540" height="218" key="GridCell.Tab.0.bottom" timestamp="1604511711723">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604511711723" />
+    <state width="1540" height="218" key="GridCell.Tab.0.center" timestamp="1604511711722">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604511711722" />
+    <state width="1540" height="218" key="GridCell.Tab.0.left" timestamp="1604511711722">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604511711722" />
+    <state width="1540" height="218" key="GridCell.Tab.0.right" timestamp="1604511711722">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604511711722" />
+    <state width="272" height="457" key="HiddenNamespacesPopup" timestamp="1604506569127">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="272" height="457" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1604506569127" />
+    <state x="626" y="23" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604506537457">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="626" y="23" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.860@0.0.1600.860" timestamp="1604506537457" />
+    <state x="182" y="90" key="new project wizard" timestamp="1604506713196">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="90" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1604506713196" />
+  </component>
+</project>

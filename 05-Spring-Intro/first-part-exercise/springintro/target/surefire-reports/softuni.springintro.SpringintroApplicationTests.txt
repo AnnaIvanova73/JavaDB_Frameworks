@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: softuni.springintro.SpringintroApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.841 s <<< FAILURE! - in softuni.springintro.SpringintroApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorRepository': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List softuni.springintro.repositories.AuthorRepository.findAllByBooks()! Method public abstract java.util.List softuni.springintro.repositories.AuthorRepository.findAllByBooks() expects at least 1 arguments but only found 0. This leaves an operator of type SIMPLE_PROPERTY for property books unbound.
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List softuni.springintro.repositories.AuthorRepository.findAllByBooks()! Method public abstract java.util.List softuni.springintro.repositories.AuthorRepository.findAllByBooks() expects at least 1 arguments but only found 0. This leaves an operator of type SIMPLE_PROPERTY for property books unbound.
+Caused by: java.lang.IllegalStateException: Method public abstract java.util.List softuni.springintro.repositories.AuthorRepository.findAllByBooks() expects at least 1 arguments but only found 0. This leaves an operator of type SIMPLE_PROPERTY for property books unbound.
+

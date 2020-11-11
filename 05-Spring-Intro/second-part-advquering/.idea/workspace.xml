@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd3a92c0-0c32-4e46-b5c4-dc47d2d934c3" name="Default Changelist" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/03-LAB-Hibernate_Intro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/dataSources/61427ceb-fc11-4b2d-b389-96e018c74523.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/dataSources/61427ceb-fc11-4b2d-b389-96e018c74523/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/Hibernate_Intro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/src/main/java/course/springdata/hibernateintro/HibernateIntroMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/src/main/java/course/springdata/hibernateintro/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/src/main/resources/students.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-LAB-Hibernate_Intro/target/classes/students.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/4033bf45-717e-4430-b233-7dd55925ba63.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/4033bf45-717e-4430-b233-7dd55925ba63/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/4033bf45-717e-4430-b233-7dd55925ba63/storage_v2/_src_/schema/soft_uni.W8OYTg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/4033bf45-717e-4430-b233-7dd55925ba63/storage_v2/_src_/schema/wizard_deposits_db.lCoWjA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/Task_1_GringottsDatabse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/src/main/java/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/src/main/java/entities/WizardDeposits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_1_GringottsDatabse/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/dataSources/a92c078c-1a29-43dd-bb86-cb4e7c516058.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/dataSources/a92c078c-1a29-43dd-bb86-cb4e7c516058/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/Task_2_SalesDatabase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/java/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/java/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/java/entities/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/java/entities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/java/entities/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/java/entities/StoreLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_2_SalesDatabase/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/dataSources/b6207c06-afa5-4d84-9c84-263a2c1af761.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/dataSources/b6207c06-afa5-4d84-9c84-263a2c1af761/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/dataSources/b6207c06-afa5-4d84-9c84-263a2c1af761/storage_v2/_src_/schema/university_db.z9NYOg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/Task_3_UniversitySystem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/java/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/java/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/java/entities/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/java/entities/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/java/entities/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/java/entities/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_3_UniversitySystem/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/Task_4_Hospital_Database.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/java/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/java/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/java/entities/Diagnose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/java/entities/Medicament.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/java/entities/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/java/entities/Visitation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_4_Hospital_Database/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/480a947a-eb26-4ac5-a8c0-b804ac1c86f3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/480a947a-eb26-4ac5-a8c0-b804ac1c86f3/storage_v2/_src_/schema/bills_db.UYAUNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/480a947a-eb26-4ac5-a8c0-b804ac1c86f3/storage_v2/_src_/schema/bills_payments_db.XaACPA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/480a947a-eb26-4ac5-a8c0-b804ac1c86f3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/b782d360-455c-4cc0-855e-b8810ec0a1c0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/b782d360-455c-4cc0-855e-b8810ec0a1c0/storage_v2/_src_/schema/bills_payment_db.Kqp7Mw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/b782d360-455c-4cc0-855e-b8810ec0a1c0/storage_v2/_src_/schema/bills_payments_db.XaACPA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/b782d360-455c-4cc0-855e-b8810ec0a1c0/storage_v2/_src_/schema/hospital_db.oxDs8w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources/b782d360-455c-4cc0-855e-b8810ec0a1c0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/Task_5_Bills_Payment_System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/src/main/java/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/src/main/java/entities/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/src/main/java/entities/BillingDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/src/main/java/entities/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/src/main/java/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_5_Bills_Payment_System/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/aaa.QXgBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/bills_payments_db.XaACPA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/billspayment.OofsGg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/football_betting_db.0DHmPQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/hospital_db.oxDs8w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/sales_db.kfxzcw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/school.dFvhyQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/school_jpa.kExL-g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/soft_uni.W8OYTg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/softuni_stores_system.Y_dnIQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/somethingelse.s0i3Fw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/students.mMXRbw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/university_db.z9NYOg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dataSources/953791df-168a-48e0-ac91-320281c35963/storage_v2/_src_/schema/wizard_deposits_db.lCoWjA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/Task_6_Football_Betting_DB.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Bet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/BetAndGames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/BetGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Competition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/CompetitionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Continent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/PlayerStatistic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/ResultPrediction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Round.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/Town.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/java/entities/base/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-hibernate-code-first/Task_6_Football_Betting_DB/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/src/main/java/course/springdata/restmvc/RestmvcDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-LAB-Restmvc-Demo/src/test/java/course/springdata/restmvc/RestmvcDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/SpringIntroExApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/constants/GlobalConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/controller/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/entities/AgeRestriction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/entities/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/entities/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/entities/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/entities/EditionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/repositories/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/repositories/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/domain/repositories/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/services/AuthorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/services/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/services/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/services/impl/AuthorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/services/impl/BookServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/services/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/utils/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/java/com/softuni/springintroex/utils/FileUtilImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/resources/files/authors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/resources/files/books.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/main/resources/files/categories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../advquering/src/test/java/com/softuni/springintroex/SpringIntroExApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\35987\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k4prt5DwBK5HvNOrhAM1QrrRkE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3908046" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.softuni.springintroex.services" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringIntroExApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="advquering" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.softuni.springintroex.SpringIntroExApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd3a92c0-0c32-4e46-b5c4-dc47d2d934c3" name="Default Changelist" comment="" />
+      <created>1604969922820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604969922820</updated>
+      <workItem from="1604969925251" duration="6294000" />
+      <workItem from="1605014178988" duration="30660000" />
+      <workItem from="1605104032811" duration="142000" />
+      <workItem from="1605104216446" duration="739000" />
+      <workItem from="1605112413935" duration="151000" />
+      <workItem from="1605112659983" duration="165000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1605058768425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605058768425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1605020330999">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="699" y="321" key="#Assign_Data_Sources/0.0.1600.860@0.0.1600.860" timestamp="1605020330999" />
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605017088828">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1605017088828" />
+    <state x="614" y="305" width="637" height="249" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1604973559232">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="614" y="305" width="637" height="249" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1600.860@0.0.1600.860" timestamp="1604973559232" />
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1605054614913">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1605054614913" />
+    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604975491765">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1604975491765" />
+    <state x="619" y="120" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1605052738303">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="619" y="120" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1600.860@0.0.1600.860" timestamp="1605052738303" />
+    <state x="452" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604970274653">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="452" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1604970274653" />
+    <state x="583" y="298" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605051289138">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="583" y="298" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1605051289138" />
+    <state x="506" y="171" key="FileChooserDialogImpl" timestamp="1605112455448">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="506" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605112455448" />
+    <state width="1314" height="314" key="GridCell.Tab.-1.bottom" timestamp="1605057342790">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.-1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605057342790" />
+    <state width="1314" height="314" key="GridCell.Tab.-1.center" timestamp="1605057342790">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.-1.center/0.0.1600.860@0.0.1600.860" timestamp="1605057342790" />
+    <state width="1314" height="314" key="GridCell.Tab.-1.left" timestamp="1605057342789">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.-1.left/0.0.1600.860@0.0.1600.860" timestamp="1605057342789" />
+    <state width="1314" height="314" key="GridCell.Tab.-1.right" timestamp="1605057342790">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.-1.right/0.0.1600.860@0.0.1600.860" timestamp="1605057342790" />
+    <state width="1314" height="297" key="GridCell.Tab.0.bottom" timestamp="1605058917648">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605058917648" />
+    <state width="1314" height="297" key="GridCell.Tab.0.center" timestamp="1605058917647">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605058917647" />
+    <state width="1314" height="297" key="GridCell.Tab.0.left" timestamp="1605058917647">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605058917647" />
+    <state width="1314" height="297" key="GridCell.Tab.0.right" timestamp="1605058917648">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605058917648" />
+    <state width="1314" height="297" key="GridCell.Tab.1.bottom" timestamp="1605058917649">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605058917649" />
+    <state width="1314" height="297" key="GridCell.Tab.1.center" timestamp="1605058917648">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1605058917648" />
+    <state width="1314" height="297" key="GridCell.Tab.1.left" timestamp="1605058917648">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1605058917648" />
+    <state width="1314" height="297" key="GridCell.Tab.1.right" timestamp="1605058917648">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="297" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605058917648" />
+    <state width="1314" height="314" key="GridCell.Tab.2.bottom" timestamp="1605057327636">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605057327636" />
+    <state width="1314" height="314" key="GridCell.Tab.2.center" timestamp="1605057327636">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1605057327636" />
+    <state width="1314" height="314" key="GridCell.Tab.2.left" timestamp="1605057327636">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1605057327636" />
+    <state width="1314" height="314" key="GridCell.Tab.2.right" timestamp="1605057327636">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1314" height="314" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1605057327636" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1605058398081">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1605058398081" />
+    <state x="380" y="172" key="IDE.errors.dialog" timestamp="1604975225014">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="172" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1604975225014" />
+    <state x="280" y="4" key="SettingsEditor" timestamp="1605112784848">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1605112784848" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605058779089">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1605058779089" />
+    <state x="630" y="264" width="340" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605057817014">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="630" y="264" width="340" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.860@0.0.1600.860" timestamp="1605057817014" />
+    <state x="500" y="177" key="refactoring.ChangeSignatureDialog" timestamp="1605048053034">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="500" y="177" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1605048053034" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/softuni/springintroex/services/impl/BookServiceImpl.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/softuni/springintroex/services/impl/BookServiceImpl.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/advquering$SpringIntroExApplication.ic" NAME="SpringIntroExApplication Coverage Results" MODIFIED="1605049734997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
