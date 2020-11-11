@@ -7,7 +7,6 @@ import com.softuni.springintroex.services.CategoryService;
 import com.softuni.springintroex.utils.FileUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.io.IOException;
 
 //Service, Repository, Component, Controller
