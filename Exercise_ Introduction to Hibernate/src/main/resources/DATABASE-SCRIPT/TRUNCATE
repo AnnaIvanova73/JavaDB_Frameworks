@@ -1,0 +1,9 @@
+USE soft_uni;
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE `addresses`;
+TRUNCATE `departments`;
+TRUNCATE `employees`;
+TRUNCATE `employees_projects`;
+TRUNCATE `projects`;
+TRUNCATE `towns`;
+SET FOREIGN_KEY_CHECKS = 1;
