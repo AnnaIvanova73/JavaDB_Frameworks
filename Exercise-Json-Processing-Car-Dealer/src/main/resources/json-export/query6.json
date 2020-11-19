@@ -1,0 +1,67 @@
+[
+  {
+    "car": {
+      "make": "BMW",
+      "model": "X6 M",
+      "travelledDistance": 483647
+    },
+    "customer": {
+      "name": "Louann Holzworth",
+      "discount": 0.3,
+      "price": 7092.95,
+      "priceWithDiscount": 4965.0650000000005
+    }
+  },
+  {
+    "car": {
+      "make": "Skoda",
+      "model": "Rapid",
+      "travelledDistance": 9223372775807
+    },
+    "customer": {
+      "name": "Natalie Poli",
+      "discount": 0.1,
+      "price": 6816.6,
+      "priceWithDiscount": 6134.9400000000005
+    }
+  },
+  {
+    "car": {
+      "make": "Nissan",
+      "model": "Altima",
+      "travelledDistance": 2147483647
+    },
+    "customer": {
+      "name": "Rema Revelle",
+      "discount": 0.25,
+      "price": 3018.36,
+      "priceWithDiscount": 2263.77
+    }
+  },
+  {
+    "car": {
+      "make": "Mercedes",
+      "model": "A 170 CDI",
+      "travelledDistance": 9223775807
+    },
+    "customer": {
+      "name": "Francis Mckim",
+      "discount": 0.25,
+      "price": 7954.819999999999,
+      "priceWithDiscount": 5966.114999999999
+    }
+  },
+  {
+    "car": {
+      "make": "Citroen",
+      "model": "C5",
+      "travelledDistance": 2183647
+    },
+    "customer": {
+      "name": "Hipolito Lamoreaux",
+      "discount": 0.45,
+      "price": 2735.4900000000002,
+      "priceWithDiscount": 1504.5195
+    }
+  }
+]
