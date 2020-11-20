@@ -3,70 +3,72 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7174deeb-41a2-412f-a3dd-62fc72c11552" name="Default Changelist" comment="added tasks">
-      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_2_SalesDatabase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_3_UniversitySystem/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_4_Hospital_Database/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_5_Bills_Payment_System/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Exercise-Spring-Intro/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PleaseReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/src/main/java/com/example/demo/domain/entities/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/src/main/java/com/example/demo/domain/entities/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/src/main/java/com/example/demo/domain/entities/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/src/main/java/com/example/demo/domain/entities/Shampoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/src/main/java/com/example/demo/domain/entities/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../labstringitro/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/runners/RunApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/SpringintrousersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/AnnotationsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/email/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/email/EmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/password/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/annotations/password/PasswordValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/constants/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/constants/TextConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/Town.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/domain/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/AlbumRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/PictureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/TownRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/repo/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/AlbumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/PictureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/TownService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/AlbumServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/PictureServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/TownServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/java/softuni/springintrousers/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springintrousers/src/test/java/softuni/springintrousers/SpringintrousersApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/JsonprocessingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/config/ApplicationBeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/export/query1/ProductExportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/export/query2/ProductExportDtoQuery2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/export/query2/UserExportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/export/query3/CategoryExportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/export/query4/ProductsExportDtoQuery4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/export/query4/UserExportDtoQuery4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/importDto/CategoryImportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/importDto/ProductImportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/dto/importDto/UserImportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/entities/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/model/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/runner/CmdRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/util/ValidatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/java/softuni/jsonprocessing/util/ValidatorUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/json-export/query1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/json-export/query2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/json-export/query3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/json-export/query4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/json-import/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/json-import/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/main/resources/json-import/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Products-Shop/src/test/java/softuni/jsonprocessing/JsonprocessingApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/bb59d20e-17e5-4311-bc6a-faa3d367c8a6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_1_GringottsDatabse/.idea/dataSources/bb59d20e-17e5-4311-bc6a-faa3d367c8a6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_4_Hospital_Database/.idea/dataSources/5161f9d0-0c0c-46d5-85c9-5cc3b8baac3b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-hibernate-code-first/Task_6_Football_Betting_DB/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-Exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise-Json-Processing-Car-Dealer/src/main/java/softuni/jsonprocessing/runner/CmdRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise-Json-Processing-Car-Dealer/src/main/java/softuni/jsonprocessing/runner/CmdRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +112,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JDBS_Exercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DB_Advanced_Test_Homeworks/07-spring-mapping/Homework-Exercise_ Spring Data Auto Mapping Objects-1028742" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -144,17 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -184,6 +175,8 @@
       <workItem from="1604585591507" duration="2638000" />
       <workItem from="1604608746077" duration="765000" />
       <workItem from="1604950176494" duration="71000" />
+      <workItem from="1605849327066" duration="589000" />
+      <workItem from="1605873679612" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1604112730543</created>
@@ -282,6 +275,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
@@ -336,10 +340,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604259428634" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1604608783094">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1605882711965">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1604608783094" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605882711965" />
     <state width="1540" height="518" key="GridCell.Tab.0.bottom" timestamp="1604587297878">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
