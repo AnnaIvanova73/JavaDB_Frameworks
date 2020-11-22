@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categories>
+    <category name="Autoparts">
+        <products-count>1</products-count>
+        <average-price>1000</average-price>
+        <total-revenue>1000</total-revenue>
+    </category>
+    <category name="Fashion">
+        <products-count>2</products-count>
+        <average-price>1100</average-price>
+        <total-revenue>2200</total-revenue>
+    </category>
+    <category name="Adult">
+        <products-count>3</products-count>
+        <average-price>1100</average-price>
+        <total-revenue>3200</total-revenue>
+    </category>
+    <category name="Sports">
+        <products-count>3</products-count>
+        <average-price>980</average-price>
+        <total-revenue>2900</total-revenue>
+    </category>
+    <category name="Drugs">
+        <products-count>4</products-count>
+        <average-price>980</average-price>
+        <total-revenue>3900</total-revenue>
+    </category>
+    <category name="Electronics">
+        <products-count>4</products-count>
+        <average-price>980</average-price>
+        <total-revenue>3900</total-revenue>
+    </category>
+    <category name="Garden">
+        <products-count>4</products-count>
+        <average-price>980</average-price>
+        <total-revenue>3900</total-revenue>
+    </category>
+    <category name="Weapons">
+        <products-count>4</products-count>
+        <average-price>980</average-price>
+        <total-revenue>3900</total-revenue>
+    </category>
+    <category name="For Children">
+        <products-count>4</products-count>
+        <average-price>980</average-price>
+        <total-revenue>3900</total-revenue>
+    </category>
+    <category name="Business">
+        <products-count>4</products-count>
+        <average-price>980</average-price>
+        <total-revenue>3900</total-revenue>
+    </category>
+    <category name="Other">
+        <products-count>4</products-count>
+        <average-price>980</average-price>
+        <total-revenue>3900</total-revenue>
+    </category>
+</categories>
