@@ -1,2 +1,2 @@
 # SpringData
-Hibernate, Spring, API Architecture, Database First, Code First, ORM framework,  XML, JSON
+Hibernate, Spring, API Architecture, Database First,Hibernate Code First, ORM framework,  XML, JSON
