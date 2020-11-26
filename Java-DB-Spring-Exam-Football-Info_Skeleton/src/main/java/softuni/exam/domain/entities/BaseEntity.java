@@ -3,7 +3,7 @@ package softuni.exam.domain.entities;
 import javax.persistence.*;
 
 @MappedSuperclass
-public class BaseEntity {
+public abstract class BaseEntity {
 
     Integer id;
 
