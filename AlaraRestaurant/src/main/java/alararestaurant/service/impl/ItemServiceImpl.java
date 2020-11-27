@@ -74,12 +74,12 @@ public class ItemServiceImpl implements ItemService {
             Item itemEntity = this.modelMapper.map(itemDto, Item.class);
 
             Optional<Category> optCategory =
-                    this.categoryRepository.findFirstByNameLike(itemDto.getName());
+                    this.categoryRepository.findFirstByNameLike(itemDto.getCategory());
 
             Category category;
             if (optCategory.isEmpty()) {
                 category = new Category();
-                category.setName(itemDto.getName());
+                category.setName(itemDto.getCategory());
                 this.categoryRepository.saveAndFlush(category);
             } else {
                 category = optCategory.get();

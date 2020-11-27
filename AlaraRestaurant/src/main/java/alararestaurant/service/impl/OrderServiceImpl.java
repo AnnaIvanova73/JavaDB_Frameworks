@@ -7,7 +7,6 @@ import alararestaurant.domain.dtos.xmls.OrderRootImportDto;
 import alararestaurant.domain.entities.*;
 import alararestaurant.repository.EmployeeRepository;
 import alararestaurant.repository.ItemRepository;
-import alararestaurant.repository.OrderItemRepository;
 import alararestaurant.repository.OrderRepository;
 import alararestaurant.service.OrderService;
 import alararestaurant.util.fileutil.FileUtil;
@@ -18,9 +17,8 @@ import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import static alararestaurant.config.constant.ConstantMsg.INVALID_MSG;
 
@@ -37,7 +35,6 @@ public class OrderServiceImpl implements OrderService {
     private final ValidationUtil validationUtil;
     private final OrderRepository orderRepository;
     private final ItemRepository itemRepository;
-    private final OrderItemRepository orderItemRepository;
 
     public OrderServiceImpl(EmployeeRepository employeeRepository,
                             ModelMapper modelMapper,
@@ -46,8 +43,7 @@ public class OrderServiceImpl implements OrderService {
                             XmlParser xmlParser,
                             ValidationUtil validationUtil,
                             OrderRepository orderRepository,
-                            ItemRepository itemRepository,
-                            OrderItemRepository orderItemRepository) {
+                            ItemRepository itemRepository) {
         this.employeeRepository = employeeRepository;
         this.modelMapper = modelMapper;
         this.sb = sb;
@@ -56,7 +52,10 @@ public class OrderServiceImpl implements OrderService {
         this.validationUtil = validationUtil;
         this.orderRepository = orderRepository;
         this.itemRepository = itemRepository;
-        this.orderItemRepository = orderItemRepository;
+    }
+
+    private static int compare(Order a, Order b) {
+        return b.getCustomer().compareTo(a.getCustomer());
     }
 
 
@@ -113,7 +112,6 @@ public class OrderServiceImpl implements OrderService {
             }
 
 
-
             orderEntity.setOrderItems(orderItemsEntity);
 
 
@@ -129,6 +127,29 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public String exportOrdersFinishedByTheBurgerFlippers() {
-        return null;
+        sb.setLength(0);
+        Set<Employee> allByPosition = this.employeeRepository.findAllByPosition();
+        allByPosition.forEach(e -> {
+            sb.append("Name: ").append(e.getName()).append(System.lineSeparator());
+            sb.append("Orders:").append(System.lineSeparator());
+            Set<Order> collect = e.getOrder().stream()
+                    .sorted(Comparator.comparing(BaseEntity::getId))
+                    .collect(Collectors.toCollection(LinkedHashSet::new));
+            collect.forEach(c -> {
+                sb.append("\tCustomer: ")
+                        .append(c.getCustomer())
+                        .append(System.lineSeparator()).append("Items: ").append(System.lineSeparator());
+
+                c.getOrderItems().forEach(i -> {
+                    sb.append("Name: ").append(i.getItem().getName()).append(System.lineSeparator())
+                            .append("Price: ").append(i.getItem().getPrice()).append(System.lineSeparator())
+                            .append("Quantity: ").append(i.getQuantity()).append(System.lineSeparator());
+                });
+            });
+
+
+        });
+        System.out.println();
+        return this.sb.toString().trim();
     }
 }
