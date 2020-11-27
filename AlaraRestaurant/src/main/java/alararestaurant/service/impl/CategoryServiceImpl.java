@@ -1,5 +1,6 @@
-package alararestaurant.service;
+package alararestaurant.service.impl;
 
+import alararestaurant.service.CategoryService;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -8,16 +8,6 @@ import java.util.Set;
 @Table(name = "orders")
 public class Order extends BaseEntity {
 
-    //customer – text (required)
-    //
-    //dateTime – date and time of the order (required)
-    //
-    //type – OrderType enumeration with possible values: “ForHere, ToGo (default: ForHere)” (required)
-    //
-    //employee – The employee who will process the order (required)
-    //
-    //orderItems – collection of type OrderItem
-
     private String customer;
     private LocalDateTime dateTime;
     private OrderType type;
@@ -56,7 +46,7 @@ public class Order extends BaseEntity {
         this.type = type;
     }
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name = "employee_id",nullable = false)
     public Employee getEmployee() {
         return employee;
@@ -67,7 +57,7 @@ public class Order extends BaseEntity {
     }
 
 
-    @OneToMany(mappedBy = "order")
+    @OneToMany(mappedBy = "order",fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     public Set<OrderItem> getOrderItems() {
         return orderItems;
     }

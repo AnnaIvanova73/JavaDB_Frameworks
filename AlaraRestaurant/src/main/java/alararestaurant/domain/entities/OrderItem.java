@@ -15,7 +15,7 @@ public class OrderItem extends BaseEntity {
     public OrderItem() {
     }
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name = "order_id",nullable = false)
     public Order getOrder() {
         return order;
@@ -25,7 +25,7 @@ public class OrderItem extends BaseEntity {
         this.order = order;
     }
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name = "item_id",nullable = false)
     public Item getItem() {
         return item;

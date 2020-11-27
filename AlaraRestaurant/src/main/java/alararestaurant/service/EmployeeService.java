@@ -1,11 +1,13 @@
 package alararestaurant.service;
 
 
+import java.io.IOException;
+
 public interface EmployeeService {
 
     Boolean employeesAreImported();
 
-    String readEmployeesJsonFile();
+    String readEmployeesJsonFile() throws IOException;
 
-    String importEmployees(String employees);
+    String importEmployees(String employees) throws IOException;
 }

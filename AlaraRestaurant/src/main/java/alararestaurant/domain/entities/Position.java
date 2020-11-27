@@ -1,9 +1,6 @@
 package alararestaurant.domain.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Set;
 
 @Entity
@@ -25,7 +22,7 @@ public class Position extends BaseEntity {
         this.name = name;
     }
 
-    @OneToMany(mappedBy = "position")
+    @OneToMany(mappedBy = "position",fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     public Set<Employee> getEmployees() {
         return employees;
     }

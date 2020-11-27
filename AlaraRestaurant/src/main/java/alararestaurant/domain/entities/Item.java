@@ -55,7 +55,7 @@ public class Item  extends BaseEntity{
         this.price = price;
     }
 
-    @OneToMany(mappedBy = "item")
+    @OneToMany(mappedBy = "item",fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     public Set<OrderItem> getOrderItems() {
         return orderItems;
     }

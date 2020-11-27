@@ -40,7 +40,7 @@ public class Employee extends BaseEntity{
     }
 
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name = "position_id",nullable = false)
     public Position getPosition() {
         return position;
@@ -51,7 +51,7 @@ public class Employee extends BaseEntity{
     }
 
 
-    @OneToMany(mappedBy = "employee")
+    @OneToMany(mappedBy = "employee",fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     public Set<Order> getOrder() {
         return order;
     }

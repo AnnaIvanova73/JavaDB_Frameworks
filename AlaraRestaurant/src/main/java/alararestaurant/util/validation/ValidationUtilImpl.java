@@ -1,16 +1,11 @@
 package alararestaurant.util.validation;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import javax.validation.Validator;
 
-@Component
 public class ValidationUtilImpl implements ValidationUtil {
 
     private final Validator validator;
 
-    @Autowired
     public ValidationUtilImpl(Validator validator) {
         this.validator = validator;
     }
